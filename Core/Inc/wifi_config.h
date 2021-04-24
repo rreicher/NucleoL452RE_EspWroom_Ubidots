@@ -22,11 +22,11 @@ extern "C" {
 /* WiFi connection Setting ---------------------------------------------------*/
 
 /* Access point connection parametres */
-#define WIFI_SSID       	"SFR_8CF0"
-#define WIFI_PASSWORD   	"ttyriolakeemanc8aeup"
+#define WIFI_SSID       	"YOUR_OWN_SSID"
+#define WIFI_PASSWORD   	"YOUR_OWN_PASSWORD_KEY"
 #define HOST_ADDRESS    	"50.23.124.68"												// Ubidots IP Adress
 #define HOST_PORT       	80																		// Port number
-#define UBIDOTS_TOKEN   	"BBFF-pIhLief2uvovnVStnKOQn7obqJuLrI"	// Default Token
+#define UBIDOTS_TOKEN   	"YOUR_OWN_UBIDOTS_TOKEN"	            // Default Token
 #define UBIDOTS_DEVICE  	"nucleol4_demo"												// Device API Label
 
 /* Maximum number of trials for WiFi connection */
